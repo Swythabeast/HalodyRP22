@@ -24,7 +24,7 @@ class Splash {
         let splashes = [
             { "message": "Charchement du charabia numérique", "author": "JusDePoire" },
             { "message": "Cuisson de l'Euphillium", "author": "JusDePoire" },
-            { "message": "Votre aventure est sur le point de débuter...", "author": "JusDePoire" }
+            { "message": "Bonjour ;)", "author": "JusDePoire" }
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
