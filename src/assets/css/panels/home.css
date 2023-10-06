@@ -1,12 +1,42 @@
-.bottom-bar-home {
+.action-bar {
     position: fixed;
-    bottom: 0;
+    bottom: 50%;
     width: 100%;
     height: 70px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    background: #00000080;
-    display: flex;
+/*    display: flex; */
+    left: 1%;
+}
+
+.server-informations {
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top: 20%;
+    left: 5%;
+}
+
+.server-description {
+    position: absolute;
+    top: 27%;
+    color: #ffffff;
+    font: normal normal bold 15px/25px Poppins;
+    font-weight: 300;
+    width: 500px;
+    left: 13.5%;
+}
+
+.big-title {
+    position: absolute;
+    font: normal normal bold 85px/25px Poppins;
+    font-weight: 900;
+    letter-spacing: 5px;
+    bottom: 50%;
+    left: 13%;
+    width: 500px;
+    height: 80px;
+    color: #ffffff;
 }
 
 .player-head {
@@ -17,18 +47,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
-    left: 405px;
-    top: 10px;
-    width: 50px;
-    height: 50px;
-    border: solid #008542 5px;
-    border-radius: 5px;
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    left: 20px;
+    top: 41px;
+    width: 70px;
+    height: 70px;
+    border: solid #ffffff 7px;
+    border-radius: 100px;
+    transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .player-head:hover {
-    border-radius: 10px;
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    border-radius: 15px;
+    transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .settings-btn {
@@ -39,20 +69,17 @@
     text-align: center;
     height: 50px;
     width: 50px;
-    background: #008542;
+    background: #0085FF;
     text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
     border: none;
-    border-radius: 5px;
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
+    cursor: pointer;
 }
 
 .settings-btn:hover {
-    border-radius: 10px;
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
-}
-
-.settings-btn:hover:after{
-    top: 5px;
+    border-radius: 15px;
+    transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .icon-settings:before {
@@ -62,8 +89,8 @@
 
 .play-element {
     position: absolute;
-    left: 50%;
-    top: 10%;
+    left: 20%;
+    top: -5px;
     transform: translate(-50%);
     height: 100%;
     color: #F1F1F1;
@@ -72,70 +99,21 @@
 }
 
 .play-btn {
-      padding: 10px 40px;
-      font-size: 18px;
-      background-color: #008542;
-      color: #fff;
-      text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      border: 0;
-      z-index: 1;
-      user-select: none;
-      cursor: pointer;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      white-space: unset;
-      padding: 1.0rem 5.5rem;
-      text-decoration: none;
-      font-weight: 900;
-      transition: all 0.7s cubic-bezier(0,.8,.26,.99);
-  }
-
-.play-btn:before {
-    position: absolute;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    content: '';
-    transition: .7s cubic-bezier(0,.8,.26,.99);
-    z-index: -1;
-    background-color: #008542!important;
-    box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+    top: 10px;
+    width: 281px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background: #ffffff;
+    font: normal normal bold 20px/25px Poppins;
+    color: #000000;
+    margin: 15px 0;
+    cursor: crosshair;
 }
 
-.play-btn:after {
-    position: absolute;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    content: '';
-    box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
-    transition: .7s cubic-bezier(0,.8,.26,.99);
-}
-
-.play-btn:hover:before {
-    box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
-}
-
-.play-btn:hover:after {
-    box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
-}
-
-.play-btn:active {
-    transform: translateY(4px);
-}
-
-.play-btn:active:after {
-    box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+.play-btn:hover {
+    border-radius: 15px;
+    transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .download-content {
@@ -296,7 +274,8 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: 1;
+    cursor: pointer;
 }
 
 .server:hover {
