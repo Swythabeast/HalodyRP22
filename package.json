@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "Launcher Mincraft pour Euphillia",
     "main": "src/app.js",
-    "author": "Euphillia Team / Luuxis",
+    "author": "Euphillia Team - Luuxis",
     "url": "http://launchdata-er896.euphillia.fr",
     "engines": {
         "node": "^18.x.x"
