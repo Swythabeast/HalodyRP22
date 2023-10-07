@@ -1,8 +1,8 @@
 {
     "name": "Euphillia-Launcher",
     "preductname": "Euphillia Launcher",
-    "version": "1.3.3",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour Euphillia",
     "main": "src/app.js",
     "author": "Euphillia",
     "url": "http://launchdata-er896.euphillia.fr",
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Euphillia-Developpement/Euphillia-Launcher.git"
     }
 }
