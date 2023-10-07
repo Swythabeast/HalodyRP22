@@ -1,12 +1,11 @@
 .action-bar {
     position: fixed;
-    bottom: 50%;
-    width: 100%;
+    bottom: 46%;
+    width: 30%;
     height: 70px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-/*    display: flex; */
-    left: 1%;
+    left: 9.5%;
 }
 
 .server-informations {
@@ -23,7 +22,7 @@
     color: #ffffff;
     font: normal normal bold 15px/25px Poppins;
     font-weight: 300;
-    width: 500px;
+    width: 600px;
     left: 13.5%;
 }
 
@@ -47,32 +46,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
-    left: 20px;
-    top: 41px;
+    top: 3%;
     width: 70px;
     height: 70px;
     border: solid #ffffff 7px;
     border-radius: 100px;
     transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
+    cursor: pointer;
 }
 
 .player-head:hover {
-    border-radius: 15px;
+    border: solid #ffffff 9px;
     transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .settings-btn {
     position: absolute;
-    color: #ffffff;
+    color: #000000;
     top: 10px;
-    right: 434px;
+    right: 5%;
     text-align: center;
     height: 50px;
     width: 50px;
-    background: #0085FF;
-    text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+    background: #ffffff;
     border: none;
-    border-radius: 10px;
+    border-radius: 100px;
     transition: all 0.3s cubic-bezier(1, 0.46, 0, 1.29);
     cursor: pointer;
 }
@@ -89,7 +87,7 @@
 
 .play-element {
     position: absolute;
-    left: 20%;
+    left: 39%;
     top: -5px;
     transform: translate(-50%);
     height: 100%;
@@ -143,7 +141,7 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #00bd7a;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -156,7 +154,10 @@
 .news-list {
     position: relative;
     overflow: auto;
-    width: 100%;
+    width: 50%;
+    height: 50%;
+    top: 65%;
+    left: 8%;
 }
 
 .news-list::-webkit-scrollbar {
@@ -262,8 +263,8 @@
 
 .info-list {
     position: relative;
-    width: 65vh;
-    padding-left: 1rem;
+    width: 30%;
+    left: 20%;
     background: none;
 }
 
