@@ -1,7 +1,7 @@
 {
     "name": "Euphillia-Launcher",
     "preductname": "Euphillia Launcher",
-    "version": "1.4.0",
+    "version": "1.0.0",
     "description": "Launcher Mincraft pour Euphillia",
     "main": "src/app.js",
     "author": "Euphillia",
