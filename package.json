@@ -1,18 +1,18 @@
 {
-    "name": "Euphillia-Launcher",
-    "preductname": "Euphillia Launcher",
+    "name": "HalodyRP-Launcher",
+    "preductname": "HalodyRP Launcher",
     "version": "1.0.0",
-    "description": "Launcher Mincraft pour Euphillia",
+    "description": "Launcher Mincraft pour HalodyRP",
     "main": "src/app.js",
-    "author": "Euphillia Team - Luuxis",
-    "url": "http://launchdata-er896.euphillia.fr",
+    "author": "Swy, Halody",
+    "url": "http://82.66.79.44",
     "engines": {
         "node": "^18.x.x"
     },
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --build",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png",
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/Swythabeast/HalodyRP22/master/src/assets/images/icon.png",
         "dev": "nodemon --exec npm start"
     },
     "license": "CC0",
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Euphillia-Developpement/Euphillia-Launcher.git"
+        "url": "git+https://github.com/Swythabeast/HalodyRP22.git"
     }
 }
